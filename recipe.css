@@ -1,125 +1,45 @@
-body {
-    height: auto;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Arial', sans-serif;
-    background-color: #ffc2d1;
-    color: #333;
-}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Delicious Recipe</title>
+    <link rel="stylesheet" href="recipe.css">
+</head>
+<body>
+    <header>
+        <h1>My Secret Red Sauce Pasta Recipe</h1>
+    </header>
 
-header {
-    background-color: #fb6f92;
-    color: white;
-    padding: 20px 0;
-    text-align: center;
-}
+    <main>
+        <h3>This red sauce pasta recipe 🍝 has been in my family for generations and never fails to delight.</h3>
 
-header h1 {
-    margin: 0;
-    font-size: 28px;
-}
+        <section class="ingredients">
+            <h2>Ingredients</h2>
+            <ul>
+                <li>1/2 cup pasta</li>
+                <li>3 tomatoes and 2 onions</li>
+                <li>Few cashews and cloves</li>
+                <li>Olive oil</li>
+            </ul>
+        </section>
 
-main {
-    width: 80%;
-    margin: 20px auto;
-    flex: 1;
-}
+        <section class="instructions">
+            <h2>Instructions</h2>
+            <ol>
+                <li>Boil the pasta and keep it aside and then Slice the tomatoes, onions, and garlic</li>
+                <li>Heat oil in a pan and add all chopped veggies</li>
+                <li>Grind into a smooth paste and add salt, pepper, and red chili powder to taste</li>
+                <li>Mix in the pasta and cook for 2-3 mins</li>
+                <li>Serve hot and enjoy!🍽✨</li>
+            </ol>
+        </section>
 
-h3 {
-    text-align: center;
-    font-size: 18px;
-    font-style: italic;
-    margin-bottom: 20px;
-}
+        <div class="print-button-container">
+            <button onclick="window.print()" class="print-btn">Print Recipe</button>
+        </div>
+    </main>
 
-.ingredients, .instructions {
-    background-color: #ff8fab;
-    margin-bottom: 20px;
-    padding: 15px;
-    border-radius: 8px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.ingredients h2, .instructions h2 {
-    color: black;
-}
-
-ul, ol {
-    margin-left: 20px;
-    font-size: 16px;
-    line-height: 1.6;
-}
-
-.print-button-container {
-    text-align: center;
-    margin: 30px 0;
-}
-
-.print-btn {
-    background-color: #fb6f92;
-    border: none;
-    color: white;
-    padding: 12px 24px;
-    font-size: 16px;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.print-btn:hover {
-    background-color: #d94f6a;
-}
-
-footer {
-    text-align: center;
-    background-color: #fb6f92;
-    color: white;
-    padding: 10px 0;
-    width: 100%;
-}
-
-@media (max-width: 768px) {
-    main {
-        width: 90%;
-    }
-
-    header h1 {
-        font-size: 22px;
-        padding: 10px;
-    }
-
-    h3 {
-        font-size: 16px;
-    }
-
-    ul, ol {
-        font-size: 14px;
-    }
-
-    .print-btn {
-        padding: 10px 20px;
-        font-size: 14px;
-    }
-}
-
-@media (max-width: 480px) {
-    header h1 {
-        font-size: 20px;
-    }
-
-    h3 {
-        font-size: 14px;
-    }
-
-    ul, ol {
-        margin-left: 10px;
-        font-size: 13px;
-    }
-
-    .print-btn {
-        padding: 8px 16px;
-        font-size: 13px;
-    }
-}
+    <footer>
+        <p>© 2025 by Samshritha. All rights reserved.</p>
+    </footer>
+</body>
+</html>
