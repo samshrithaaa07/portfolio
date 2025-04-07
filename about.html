@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ABOUT</title>
+  <style>
+    body {
+      background-color: #ffc2d1;
+      margin: 0;
+      font-family: 'Times New Roman', Times, serif;
+    }
+
+    .about-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      padding: 50px 20px;
+      margin-top: 90px;
+    }
+
+    .about-image {
+      height: 300px;
+      border-radius: 50%;
+      margin: 20px;
+      margin-right: 70px;
+    }
+
+    .about-text {
+      max-width: 600px;
+      padding: 20px;
+      font-size: 18px;
+    }
+
+    .about-text h2 {
+      font-family: sans-serif;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+      .about-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 10px;
+      }
+
+      .about-text {
+        font-size: 16px;
+        padding: 10px;
+      }
+
+      .about-image {
+        height: 200px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="about-container">
+    <img src="mypic.jpg" alt="Description of Image" class="about-image" >
+    <div class="about-text">
+      <h2>ABOUT ME</h2>
+      <p>My name is Samshritha, and I am currently studying at Amrita Vishwa Vidyapeetham.
+        I have a strong passion for coding, particularly in HTML and CSS, which I enjoy using
+        to create engaging and visually appealing web pages. Web development fascinates me, as it
+        allows me to combine creativity with technical skills to bring ideas to life.
+        I love the challenge of designing user-friendly interfaces and ensuring that websites are
+        not only functional but also aesthetically pleasing. In addition to my work with HTML and CSS,
+        I am eager to learn more about JavaScript and other programming languages to enhance my web development skills.
+        I often spend my free time experimenting with new design techniques and exploring the latest trends
+        in web technology. I believe that continuous learning is essential in this ever-evolving field,
+        and I am excited about the opportunities that lie ahead.
+        As I progress in my studies, I hope to collaborate with like-minded individuals on projects that push
+        the boundaries of web design and development. Ultimately, my goal is to create impactful web experiences
+        that resonate with users and contribute positively to the digital landscape.
+      </p>
+    </div>
+  </div>
+
+</body>
+</html>
