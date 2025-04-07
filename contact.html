@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact Me</title>
+  <script src="https://kit.fontawesome.com/600cd3038d.js" crossorigin="anonymous"></script>
+
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #ffc2d1;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 610px;
+      margin: 50px auto;
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+      margin-top: 120px;
+    }
+
+    h2 {
+      color: #ff4d6d;
+    }
+
+    .social-links {
+      margin: 20px 0;
+    }
+
+    .social-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      font-size: 24px;
+      color: #fb6f92;
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      width: 100%;
+      padding: 9px 2px 9px 9px;
+      margin: 10px 0;
+      border: 1px solid #ff8fab;
+      border-radius: 5px;
+    }
+
+    .contact-form button {
+      background-color: #fb6f92;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #fb6f92;
+    }
+    @media (max-width: 640px) {
+      .container {
+        width: 90%;
+        margin: 20px auto;
+        margin-top: 100px;
+        padding: 15px;
+      }
+
+      .social-links a {
+        font-size: 20px;
+        display: inline-block;
+        margin-bottom: 10px;
+      }
+
+      .contact-form input,
+      .contact-form textarea {
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Contact Me</h2>
+    <p>Feel free to reach out to me through the form below or connect via social media.</p>
+
+    <div class="social-links">
+      <a href="https://www.linkedin.com/in/chanda-samshritha-913a57322/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/samshrithaaa07" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+      <a href="https://www.instagram.com/samshrithaaa_07/" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+    </div>
+
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</body>
+</html>
