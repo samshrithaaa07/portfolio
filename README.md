@@ -37,7 +37,7 @@ Icons or styled buttons may be used for a better user experience.
 # Navigation Bar
 Appears on all pages, typically at the top.
 Contains links to all five pages: Home, About, Education, Projects, and Contact.
-Implemented using <nav> and <ul> elements, styled with CSS.
+Implemented using nav and ul elements, styled with CSS.
 Ensures smooth navigation across the site.
 
 # Technologies Used
